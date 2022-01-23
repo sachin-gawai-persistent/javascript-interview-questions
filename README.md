@@ -554,7 +554,10 @@ You can download the PDF and Epub version of this repository from the latest run
 
       **[⬆ Back to Top](#table-of-contents)**
 
-2. ### What is a prototype chain
+2. ### What is a Prototype and prototype chain
+    
+  **Prototype**
+Prototype is basically a property of a JavaScript function. At each time we create a function in JavaScript, JavaScript engine adds an extra property called prototype to the created function. This prototype property is an object (called as prototype object) has a constructor property by default. This constructor property points back(i.e blue arrow) to the function object on which the prototype object is a property.
 
     **Prototype chaining** is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language. 
     
